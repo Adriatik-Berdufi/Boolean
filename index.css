@@ -1,0 +1,76 @@
+body{
+    background-image: url(img/background.jpg);
+    background-size: cover;
+}
+body > div{
+    height: 750px;
+    width: 1200px;
+    background-color: rgba(0, 0, 0,0.5);
+    margin-left: 18.5%;
+    margin-right: 20%;
+    margin-top: 15px; 
+    padding-top: 120px;
+    border-radius: 20px;
+}
+.logo, nav, header{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+img{
+    width: 245px;
+    height: 110px;
+}
+header{
+    color: rgb(36, 252, 3);
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 10px; 
+    margin-bottom: 6px;
+}
+
+nav button{ 
+    font-size: 13px;
+    margin-right: 5px;   
+}
+nav, main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+nav{
+    background-color: rgb(36,252,3);
+    height: 44px;
+}
+
+main{
+    color: rgb(255, 255, 255); 
+}
+section > div:first-child {
+    font-size: 77px ;  
+}
+section > div:nth-child(2) {
+    font-size: 18px ;  
+}
+section > div:nth-child(3) {
+    font-size: 18px ;  
+}
+
+section :last-child{
+    font-size: 17px;
+    border-radius: 5px; 
+}
+.carica1{
+    height: 30px;
+    background-color: orange;
+    width: 320px;
+}
+.carica2{
+    height: 30px;
+    background-color: rgb(39, 183, 39);
+    width: 560px;
+}
+.carica3{
+    height: 30px;
+    background-color:rgb(207, 38, 38) ;
+    width: 140px;
+}
